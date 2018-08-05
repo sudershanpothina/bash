@@ -97,4 +97,30 @@ dirs -v to list all the options in the list
 
 ~/Desktop to jump to the user root folder and goto Destop folder
 
+Append content to the file
+echo "content" >> filename 
+
+Create a interactive session to add content
+cat > filename
+ctrl+d to add data
+
+
+
+cat<< EOF > names.txt
+ex- 
+test1
+test2
+EOF
+
+EOF will designate the end of the file and no need of pressing ctrl+d
+
+
+cat real purpose is to concat files
+cat file1 file 2 
+This will print both the files
+
+Create a new file concating two files
+
+cat file1 file2 > file3
+
 
